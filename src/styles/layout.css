@@ -237,6 +237,17 @@ ul.nav li.current button { color: #fff; }
    letter-spacing: 2px;
    border-radius: 20px;
 }
+
+#hero .buttons .button .learn-more {
+   font: bold 14px/24px 'Montserrat', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   border-radius: 20px;
+   background-color: #FF1493 ;
+   color: #fff;
+}
+
+
 #hero .buttons .trial {
    background: #ffffff;
    margin-right: 25px;
@@ -255,7 +266,7 @@ ul.nav li.current button { color: #fff; }
    margin-left: 5px;
 }
 #hero .buttons .trial:hover { background: #e4e4e4; }
-#hero .buttons .learn-more:hover { background: #FF69B4;}
+#hero .buttons .button .learn-more:hover { background: #FF69B4;}
 
 
 /* ------------------------------------------------------------------ */
