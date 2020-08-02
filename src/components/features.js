@@ -38,7 +38,7 @@ export default () => (
 
           <ScrollAnimation
             animateIn="pulse"
-            animateOnce={true}
+            // animateOnce={true}
             initiallyVisible={true}
             className={ 'six columns feature-media ' + imagepos }
             >
