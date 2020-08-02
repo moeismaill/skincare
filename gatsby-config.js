@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Woo`,
+    title: `Skincare`,
     author: {
       name: `Joe Bloggs`,
     },
@@ -52,18 +52,18 @@ module.exports = {
 
     /* Logo and text to show in footer */
     footer: {
-      logo: `/images/footer-logo.png`,
+      logo: `/images/logo.png`,
       text: `Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
     },
 
     /* Address and contact info to show in footer */
     address: {
-      line1: `1600 Amphitheatre Parkway`,
-      line2: `Mountain View, CA`,
-      line3: `94043 US`,
+      line1: `1600 Lake Shore Drive`,
+      line2: `Chicago, IL`,
+      line3: `60611 US`,
     },
     contacts: [
-      { text: `647.343.8234`, url: `tel:6473438234` },
+      { text: `647.343.8234`, url: `tel:3123438234` },
       { text: `123.456.7890`, url: `tel:1234567890`},
       { text: `someone@help.com`, url: `mailto:someone@help.com`},
     ],

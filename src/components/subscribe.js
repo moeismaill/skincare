@@ -16,7 +16,7 @@ export default () => (
     <div className="twelve columns">
       <div id="mc_embed_signup">
         <form
-          action="http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d"
+          netlify="true"
           method="post"
           id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"

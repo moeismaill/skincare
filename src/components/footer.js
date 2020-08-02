@@ -27,17 +27,7 @@ export default () => {
         <div className="six columns right-cols">
           <div className="row">
             <div className="columns">
-              <FontAwesomeIcon icon={ faMapMarkerAlt } />
-              <h3 className="address">Address</h3>
-              <p>
-                { address.line1 }<br />
-                { address.line2 }<br />
-                { address.line3 }
-             </p>
-           </div>
-
-         <div className="columns">
-           <FontAwesomeIcon icon={ faUsers } />
+            <FontAwesomeIcon icon={ faUsers } />
            <h3 className="social">Social</h3>
            <ul>
              { social.map(mySocial =>
@@ -46,16 +36,26 @@ export default () => {
                </a></li>
              )}
            </ul>
-        </div>
+           </div>
 
-          <div className="columns last">
-            <FontAwesomeIcon icon={ faEnvelope } />
+         <div className="columns">
+             <FontAwesomeIcon icon={ faEnvelope } />
              <h3 className="contact">Contact Us</h3>
              <ul>
                { contacts.map((contact, index) =>
                  <li><a href={ contact.url }>{ contact.text }</a></li>
                )}
              </ul>
+        </div>
+
+          <div className="columns last">
+          <FontAwesomeIcon icon={ faMapMarkerAlt } />
+              <h3 className="address">Address</h3>
+              <p>
+                { address.line1 }<br />
+                { address.line2 }<br />
+                { address.line3 }
+             </p>
           </div>
         </div>
       </div>
