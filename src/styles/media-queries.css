@@ -105,7 +105,7 @@
       font: 11px 'Montserrat', sans-serif;
       background: transparent !important;
       letter-spacing: 1.5px;
-      color: #515968;
+      color: #e4e4e4;
 
       position: absolute;
       top: 0;
@@ -134,7 +134,7 @@
    /* hide menu panel */
    #nav-wrap ul.nav {
       padding: 24px 36px 48px 36px;
-      background: #1D2025;
+      background: #e4e4e4;
       height: auto;
       display: block;
       clear: both;
@@ -166,7 +166,7 @@
       display: block;
       height: auto;
       text-align: left;
-      border-bottom: 1px solid #2D2E34 !important;
+      /* border-bottom: 1px solid #2D2E34 !important; */
       border-bottom-style: dotted !important;
    }
 
