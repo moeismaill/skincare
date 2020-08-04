@@ -14,7 +14,7 @@ export default () => (
 
         <div className="buttons">
           <AnchorLink className="button trial animated shake"><a href="tel: 0792021638" style={{color: "#000"}}>{ content.button1.label }</a></AnchorLink>
-          <AnchorLink className="button learn" to="/#features">{ content.button2.label }</AnchorLink>
+          <button className="button learn"><AnchorLink className="learn-link" to={content.button2.to} >{ content.button2.label }</AnchorLink></button>
         </div>
       </div>
     </div>

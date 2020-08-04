@@ -247,6 +247,10 @@ ul.nav li.current button { color: #fff; }
    color: #fff;
 }
 
+#hero .learn-link {
+   color: #fff;
+}
+
 
 #hero .buttons .trial {
    background: #ffffff;
